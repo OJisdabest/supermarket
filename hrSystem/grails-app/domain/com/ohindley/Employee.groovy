@@ -18,6 +18,22 @@ String taxCode
 
 String contract
 
+Team_Leader teamLeader
+
+Manager manager
+
+Shift shift
+
+static hasMany = [team:Team, task:Task]
+
+static belongsTo = [Team, Task, Team_Leader]
+
+String toString() {
+
+return fullName
+
+}
+
     static constraints = {
 	fullName blank:false, nullable:false;
 	dateOfBirth blank:false, nullable:false;
@@ -27,5 +43,12 @@ String contract
 	employeeID blank:false, nullable:false;
 	taxCode blank:false, nullable:false;
 	contract blank:false, nullable:false;
+	teamLeader blank:false, nullable:false;
+	manager blank:false, nullable:false;
+	shift blank:true, nullable:true;
+	task blank:true, nullable:true;
+	team blank:true, nullable:true;
+	
+
     }
 }
