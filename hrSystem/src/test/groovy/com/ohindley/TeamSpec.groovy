@@ -11,8 +11,11 @@ class TeamSpec extends Specification implements DomainUnitTest<Team> {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void teamSize() {
+	when: "A team size is above 0 or below 20"
+		def team1 = new Team(teamName:'Clean up Crew',
+			numberOfEmployees:5)
+	then: " team size is valid."
+	team1.teamSize()==true;
     }
 }

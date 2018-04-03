@@ -26,6 +26,13 @@ return taskName
 
 }
 
+Boolean assignPeople() {
+
+if (numberOfPeople == 0)
+return true;
+
+}
+
     static constraints = {
 	taskName blank:false, nullable:false;
 	numberOfPeople blank:false, nullable:false, minSize:1, maxSize:10;

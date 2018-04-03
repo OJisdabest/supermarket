@@ -18,7 +18,7 @@ static hasMany = [teamLeader:Team_Leader, employee:Employee]
 
 String toString() {
 
-return fullName
+return "$fullName, $managerEmail, $office"
 
 }
 

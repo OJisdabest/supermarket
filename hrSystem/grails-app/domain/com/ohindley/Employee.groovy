@@ -34,6 +34,12 @@ return fullName
 
 }
 
+double calculateDaily() {
+
+8*hourlyRate
+
+}
+
     static constraints = {
 	fullName blank:false, nullable:false;
 	dateOfBirth blank:false, nullable:false;

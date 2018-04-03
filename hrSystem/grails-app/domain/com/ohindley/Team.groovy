@@ -20,9 +20,14 @@ return teamName
 
 }
 
+Boolean teamSize() {
+if (numberOfEmployees > 0 && numberOfEmployees < 20)
+return true;
+}
+
     static constraints = {
 	teamName blank:false, nullable:false;
-	numberOfEmployees blank:false, nullable:false, minSize:20, maxSize:60;
+	numberOfEmployees blank:false, nullable:false, range: 0..10;
 	sectionName blank:false, nullable:false;
 	description blank:false, nullable:false, maxSize:500, widget:'textarea';
 	shift blank:true, nullable:true;

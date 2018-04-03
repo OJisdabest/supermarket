@@ -28,6 +28,13 @@ return fullName
 
 }
 
+Boolean passwordValidation() {
+
+if (password.length() > 9)
+return true;
+
+}
+
     static constraints = {
 	fullName blank:false, nullable:false;
 	department blank:false, nullable:false;
