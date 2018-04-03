@@ -35,7 +35,7 @@ return true;
 
     static constraints = {
 	taskName blank:false, nullable:false;
-	numberOfPeople blank:false, nullable:false, minSize:1, maxSize:10;
+	numberOfPeople blank:false, nullable:false, minSize:0, maxSize:20;
 	sectionName blank:false, nullable:false;
 	department blank:false, nullable:false;
 	timeRequired blank:false, nullable:false;

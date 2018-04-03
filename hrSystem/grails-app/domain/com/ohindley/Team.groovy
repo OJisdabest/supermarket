@@ -27,7 +27,7 @@ return true;
 
     static constraints = {
 	teamName blank:false, nullable:false;
-	numberOfEmployees blank:false, nullable:false, range: 0..10;
+	numberOfEmployees blank:false, nullable:false, minSize:0, maxSize:20;
 	sectionName blank:false, nullable:false;
 	description blank:false, nullable:false, maxSize:500, widget:'textarea';
 	shift blank:true, nullable:true;

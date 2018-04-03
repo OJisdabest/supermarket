@@ -4,7 +4,7 @@ class BootStrap {
 
     def init = { servletContext ->
 
-
+	/*
 	//Declaring Managers	
 	def manager1=new Manager (
 		fullName:'Oliver Hindley',
@@ -216,7 +216,7 @@ class BootStrap {
 	task1.addToEmployee(employee3)
 	task2.addToEmployee(employee1)
 	task3.addToEmployee(employee2)
-	
+	*/
     }
     def destroy = {
     }
