@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="layout" content="main"/>
-	<title>Supermarket | Manager - Login</title>
+	<title>Supermarket | Team Leader - Login</title>
 
 	<asset:link rel="icon" href="favicon.ico" type="image/x-ico" />
 </head>
@@ -19,10 +19,10 @@
 		<table>
 			<tr class="prop">
 				<td class="name">
-					<label for="userName">User Name:</label>
+					<label for="leaderEmail">Leader Email:</label>
 				</td>
 				<td class="value">
-					<input type="text" id="userName" name="userName" value="">
+					<input type="text" id="leaderEmail" name="leaderEmail" value="">
 				</td></tr>
 			<tr class="prop">
 				<td class="name">
