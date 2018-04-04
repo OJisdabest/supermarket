@@ -15,7 +15,7 @@
 			</p>
 				<ul>
 					<g:each var="employee" in="${employees}">
-						<li><g:link controller="Manager" action="show" id="${employee.id}">${employee.fullName}</g:link></li>
+						<li><g:link controller="Employee" action="show" id="${employee.id}">${employee.fullName}</g:link></li>
 					</g:each>
 				</ul>
 					<g:link action='advSearch'>Search Again</g:link>

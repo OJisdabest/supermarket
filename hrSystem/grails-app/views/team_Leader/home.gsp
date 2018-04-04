@@ -40,6 +40,14 @@
 		    <g:link controller="Task" action="create">Display/ List Tasks</g:link>
 		</button>
             </div>
+	<!--controller for Searching for Tasks-->
+	    <div class="first">
+		<h3>Advanced Search for Tasks</h3>
+	    <p>This link will take you to a page where you can search for specific tasks via task name, section name and number of people required.</p>
+		<button type="button" class="btn btn-success">
+		    <g:link controller="Task" action="advSearch2">Search for Tasks</g:link>
+		</button>
+	    </div>
 	</div>
     </div>
 </body>
