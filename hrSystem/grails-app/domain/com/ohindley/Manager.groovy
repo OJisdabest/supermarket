@@ -16,9 +16,16 @@ String department
 
 static hasMany = [teamLeader:Team_Leader, employee:Employee]
 
+/* for unit testing
 String toString() {
 
 return "$fullName, $managerEmail, $office"
+
+}*/
+
+String toString() {
+
+return fullName;
 
 }
 
