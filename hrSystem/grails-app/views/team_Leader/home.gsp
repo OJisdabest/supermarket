@@ -48,6 +48,22 @@
 		    <g:link controller="Task" action="advSearch2">Search for Tasks</g:link>
 		</button>
 	    </div>
+	<!--controller for Indexing Tasks as XML-->
+	    <div class="second">
+		<h3>Index</h3>
+	    <p>Index Page</p>
+		<button type="button" class="btn btn-success">
+		    <g:link controller="Task" action="index">Index</g:link>
+		</button>
+  	    </div>
+	<!--controller for show task as JSON object-->
+	    <div class="first">
+		<h3>Show</h3>
+	    <p>Show</p>
+		<button type="button" class="btn btn-success">
+		    <g:link controller="Task" action="show">Show</g:link>
+		</button>
+	    </div>
 	</div>
     </div>
 </body>
