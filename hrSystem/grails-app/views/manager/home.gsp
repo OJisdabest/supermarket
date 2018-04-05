@@ -48,6 +48,14 @@
 		    <g:link controller="Team" action="index">Assign Employees to Teams</g:link>
 		</button>
             </div>
+	<!--controller for Searching for Employees-->
+	    <div class="second">
+		<h3>Advanced Search for Employees</h3>
+	    <p>This link will take you to a page where you can search for specific employees via their full name, employeeID and/or tax code.</p>
+		<button type="button" class="btn btn-success">
+		    <g:link controller="Employee" action="advSearch">Search for Employees</g:link>
+		</button>
+	    </div>
 	</div>
     </div>
 </body>

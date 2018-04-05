@@ -17,6 +17,7 @@
     <div>
 	<asset:image src="main1.jpeg"/>
 	<g:loginToggle/>
+	<g:loginToggle2/>
     </div>
     <g:layoutBody/>
 
